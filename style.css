@@ -1,12 +1,12 @@
-* {
-  Margin:0;
-  Padding:0;
-}
+
+
 body {
-  font-family: arial, helvetica, sans-serif;
-  background-color: FireBrick;
-  line-height: 1.6;
+  background-color: firebrick;
+}
+
+.first {
   text-align: center;
+  background-color: firebrick;
 }
 
 .container {
@@ -89,12 +89,16 @@ h2, h3 {
 
 .main-column {
   flex:3;
-  order:2;
+  order:1;
 }
 
 .sidebar-one {
   flex:1;
   order:3;
+}
+
+.bullet{
+ list-style-type:square; 
 }
 
 .top-layout-container {
@@ -120,7 +124,7 @@ h2, h3 {
 }
 
 @keyframes click {
-  0% {opacity: 0;}
+  0% {opacity: 1;}
   100% {opacity: 1;}
 }
 
@@ -148,13 +152,7 @@ h2, h3 {
 .call-out:nth-child(1) {background-color:Khaki;}
 .call-out:nth-child(2) {background-color:PaleGoldenRod;}
 
-.bullet{
- list-style-type:square; 
-}
 
-.bullet{
- list-style-type:square; 
-}
 
 .button {
   display: inline-block;
