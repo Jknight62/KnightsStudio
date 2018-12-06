@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="second">
+  
+    <nav class="top-layout-container">
+      <a href="main.html" class="click">Home</a>
+      <a href="#" class="click">Products & Services</a>
+      <a href="contactus.html" class="click">Contact Us</a>
+    </nav>
+
+  <div class="column-layout">
+    <div class="main-column">
+      <h2>Location</h2>
+      <p>6267 Knigths Blvd <br>
+      Plymouth, MN 55447</p>
+      <p><b>Phone:</b> 763-568-1234</p>
+      <p><b>Email:</b> info@KnightsStudio.com</p>
+      </div>
+
+    <div class="sidebar-one">
+     <h2>Hours of Operation</h2>
+     <p><b>Mon-Fri:</b> 10am - 8pm <br>
+     <b>Sat:</b> 12pm - 6pm</p>
+    </div>
+    
+  </div>
+  <div id="map"></div>
+
+  <div class="call-outs-container">
+    <div class="call-out">
+      <h4>Special Offer 1</h4>
+      <p>Want a wonderful new experience? How about a spray painting birthday party? No matter your age, we will make sure everyone enjoys themsleves. This week we are offing a discount, click learn more to find out.</p>
+      <a href="#" class="button">Learn More</a>
+    </div>
+
+    <div class="call-out">
+      <h4>Spcial Offer 2</h4>
+      <p>Not your birthday, but want to learn how to make art from spray paint.  We have you in mind as well. The month of January is our 2 for 50% off. Check us out!!</p>
+      <a href="#" class="button">Learn More</a>
+    </div>
+  </div>
+  
+  <script>
+function initMap() {
+  var uluru = {lat: 45.0176, lng: -93.4628};
+   var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 10, center: uluru});
+   var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrVYsJdknoKjCif3_BQol_KppFr0GnXUU&callback=initMap"
+    async defer>.
+  </script>
+  
+</body>
+
+</html>
