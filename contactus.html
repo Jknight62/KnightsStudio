@@ -29,19 +29,7 @@
   </div>
   <div id="map"></div>
 
-  <div class="call-outs-container">
-    <div class="call-out">
-      <h4>Special Offer 1</h4>
-      <p>Want a wonderful new experience? How about a spray painting birthday party? No matter your age, we will make sure everyone enjoys themsleves. This week we are offing a discount, click learn more to find out.</p>
-      <a href="#" class="button">Learn More</a>
-    </div>
-
-    <div class="call-out">
-      <h4>Spcial Offer 2</h4>
-      <p>Not your birthday, but want to learn how to make art from spray paint.  We have you in mind as well. The month of January is our 2 for 50% off. Check us out!!</p>
-      <a href="#" class="button">Learn More</a>
-    </div>
-  </div>
+  <div id="form"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfy9DbskVZ3BjRSC43c5crtqXd3jD0rwjfxw4IQyLBpFPdAqA/viewform?embedded=true" width="500" height="1800" frameborder="50" marginheight="0" marginwidth="0">Loading...</iframe></div>
   
   <script>
 function initMap() {
@@ -50,7 +38,7 @@ function initMap() {
       document.getElementById('map'), {zoom: 10, center: uluru});
    var marker = new google.maps.Marker({position: uluru, map: map});
 }
- </script>
+    </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrVYsJdknoKjCif3_BQol_KppFr0GnXUU&callback=initMap"
     async defer>.
   </script>
