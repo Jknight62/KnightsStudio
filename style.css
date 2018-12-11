@@ -14,7 +14,9 @@
         }
 
 #form { 
-      Margin: 20px 25%;
+  text-align: center;
+  width: 100%;
+  margin: 20px auto;
 }    
 
 .container {
