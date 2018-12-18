@@ -29,8 +29,10 @@
     </ul>
     </div>
   </div>
+  
+  <button id="hidebutton" class="button" onclick="hideoffers()">Hide Offers</button>
 
-  <div class="call-outs-container">
+  <div id="specialoffers" class="call-outs-container">
     <div class="call-out">
       <h4>Special Offer 1</h4>
       <p>Want a wonderful new experience? How about a spray painting birthday party? No matter your age, we will make sure everyone enjoys themsleves. This week we are offing a discount, click learn more to find out.</p>
@@ -43,6 +45,16 @@
       <a href="#" class="button">Learn More</a>
     </div>
   </div>
+  
+  <script>
+    function hideoffers() {
+      var x = document.getElementById("specialoffers");
+      var y = document.getElementById("hidebutton");
+      x.style.display="none";
+      y.style.display="none";
+      
+    }
+  </script>
 </body>
 
 </html>
