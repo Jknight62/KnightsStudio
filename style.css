@@ -12,12 +12,13 @@
         width: 50%;
         margin: 20px 25%;
         }
-
+        
 #form { 
-  text-align: center;
-  width: 100%;
-  margin: 20px auto;
-}    
+      text-align: center;
+      width: 100%;
+      margin: 20px auto;
+}
+    
 
 .container {
   color: white;
@@ -163,7 +164,6 @@ h2, h3 {
 .call-out:nth-child(2) {background-color:PaleGoldenRod;}
 
 
-
 .button {
   display: inline-block;
   padding: 10px 20px;
@@ -185,9 +185,12 @@ h2, h3 {
   background-color: OliveDrab;
   box-shadow: 0 5px black;
   transform: translateY(4px);
+}
   
 #buttondiv {
   text-align: center;
   margin-top: 20px;
 }
+
+  
 
